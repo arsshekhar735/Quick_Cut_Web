@@ -124,7 +124,7 @@ const WhyInvest = () => {
                 Reach out for the full deck, detailed cohorts, and roadmap.
               </span>
               <a
-                href="mailto:founders@quickcuts.app"
+                href="mailto:admin@quickcuts.shop"
                 className="mt-1 inline-flex items-center justify-center rounded-full bg-[#6d4ad3] px-3 py-1.5 text-[11px] font-semibold text-white shadow-sm transition hover:bg-[#3d8cd8] sm:mt-0"
               >
                 Contact founders
