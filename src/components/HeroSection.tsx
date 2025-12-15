@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import logo from "../assets/logo.png";
 const HeroSection = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className="group flex cursor-pointer items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl shadow-[0_10px_30px_rgba(109,74,211,0.4)] transition-all duration-300 group-hover:scale-110 group-hover:shadow-[0_15px_40px_rgba(109,74,211,0.6)]">
               <img
-                src="src/assets/logo.png"
+                src={logo}
                 alt="Quick Cuts Logo"
                 className="h-full w-full object-contain"
               />
