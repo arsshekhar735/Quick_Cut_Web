@@ -116,7 +116,7 @@ const HeroSection = () => {
 
               <div className="mt-3 flex flex-col gap-2.5">
                 <button className="w-full rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-800 transition-all hover:border-[#6d4ad3]/60 hover:text-[#6d4ad3] hover:shadow-sm">
-                   <a src="src\components\WhySalonsLove.jsx">For salons & barbers</a>
+                   For salons & barbers
                 </button>
                 <a
                   href="#get-the-app"
