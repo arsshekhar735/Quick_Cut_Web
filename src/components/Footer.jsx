@@ -136,7 +136,7 @@ const Footer = ({ onOpenCareers }) => {
             {["Instagram", "LinkedIn", "Twitter"].map((item) => (
               <a
                 key={item}
-                href="#"
+                href="https://www.linkedin.com/in/quick-cuts-6686933a1/"
                 className="transition-colors hover:text-slate-100"
               >
                 {item}
