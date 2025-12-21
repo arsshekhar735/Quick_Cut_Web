@@ -83,7 +83,7 @@ const CareersModal = ({ open, onClose }) => {
           <div className="mt-1 rounded-2xl bg-slate-50 px-4 py-3 text-[11px] text-slate-500">
             Don’t see a role that fits? Send your profile to{" "}
             <span className="font-semibold text-slate-700">
-              careers@quickcuts.app
+              hr@quickcuts.shop
             </span>{" "}
             and tell us how you’d like to help.
           </div>
