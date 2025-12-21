@@ -255,7 +255,7 @@ const HeroSection = () => {
                 <div className="flex items-center gap-3">
                   <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#3d8cd8] via-[#6d4ad3] to-[#f3a6b3] text-white text-sm font-bold shadow-[0_10px_28px_rgba(109,74,211,0.6)] transition-transform duration-300 hover:scale-110">
                     QC
-                  </div>
+                  </div>    
                   <div className="flex flex-col">
                     <span className="text-base font-bold text-slate-900">
                       Downtown Fade Studio

@@ -1,12 +1,13 @@
 import logo from "../assets/logo.png"; // update the path if different
 
-const Footer = () => {
+const Footer = ({ onOpenCareers }) => {
   const year = new Date().getFullYear();
 
   return (
     <footer className="relative z-10 bg-[#020617] text-slate-300">
       {/* top glow */}
       <div className="pointer-events-none absolute inset-x-0 top-0 h-6 bg-gradient-to-b from-black/35 via-transparent to-transparent" />
+
       <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8 lg:py-10">
         {/* top row */}
         <div className="flex flex-col items-start justify-between gap-4 border-b border-slate-800 pb-5 sm:flex-row sm:items-center">
@@ -31,11 +32,11 @@ const Footer = () => {
 
           {/* country / language */}
           <div className="flex flex-wrap items-center gap-2 text-xs text-slate-300">
-            <button className="flex items-center gap-2 rounded-lg border border-slate-700/80 bg-slate-900/80 px-3 py-1.5 shadow-sm hover:border-slate-500 hover:bg-slate-800 transition">
+            <button className="flex items-center gap-2 rounded-lg border border-slate-700/80 bg-slate-900/80 px-3 py-1.5 shadow-sm transition hover:border-slate-500 hover:bg-slate-800">
               <span className="text-sm">🌐</span>
               <span>India</span>
             </button>
-            <button className="flex items-center gap-2 rounded-lg border border-slate-700/80 bg-slate-900/80 px-3 py-1.5 shadow-sm hover:border-slate-500 hover:bg-slate-800 transition">
+            <button className="flex items-center gap-2 rounded-lg border border-slate-700/80 bg-slate-900/80 px-3 py-1.5 shadow-sm transition hover:border-slate-500 hover:bg-slate-800">
               <span className="text-sm">🇬🇧</span>
               <span>English</span>
             </button>
@@ -60,17 +61,21 @@ const Footer = () => {
             </h3>
             <ul className="space-y-1.5">
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <button
+                  type="button"
+                  onClick={onOpenCareers}
+                  className="transition-colors hover:text-slate-100"
+                >
                   Careers
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   Press
                 </a>
               </li>
@@ -83,17 +88,17 @@ const Footer = () => {
             </h3>
             <ul className="space-y-1.5">
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   Why Quick Cuts
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   Book a demo
                 </a>
               </li>
@@ -106,17 +111,17 @@ const Footer = () => {
             </h3>
             <ul className="space-y-1.5">
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   Help center
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   Contact
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-slate-100 transition-colors">
+                <a href="#" className="transition-colors hover:text-slate-100">
                   Privacy &amp; terms
                 </a>
               </li>
@@ -132,7 +137,7 @@ const Footer = () => {
               <a
                 key={item}
                 href="#"
-                className="hover:text-slate-100 transition-colors"
+                className="transition-colors hover:text-slate-100"
               >
                 {item}
               </a>
