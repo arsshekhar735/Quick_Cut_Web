@@ -27,7 +27,7 @@ const HeroSection = () => {
                 Quick Cuts
               </span>
               <span className="text-[10px] font-medium uppercase tracking-[0.14em] text-slate-500">
-                Digital queue for salons
+                Zero Waiting Experience
               </span>
             </div>
           </div>
@@ -116,7 +116,7 @@ const HeroSection = () => {
 
               <div className="mt-3 flex flex-col gap-2.5">
                 <button className="w-full rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-medium text-slate-800 transition-all hover:border-[#6d4ad3]/60 hover:text-[#6d4ad3] hover:shadow-sm">
-                   For salons & barbers
+                  For salons & barbers
                 </button>
                 <a
                   href="#get-the-app"
@@ -132,7 +132,7 @@ const HeroSection = () => {
       </header>
 
       {/* Hero */}
-      <main className="relative z-10 mx-auto flex max-w-7xl flex-col items-center gap-16 px-6 pb-24 pt-10 lg:flex-row lg:items-center lg:gap-20 lg:px-8 lg:pb-32 lg:pt-16">
+      <main className="relative z-10 mx-auto flex max-w-7xl flex-col items-center gap-16 px-6 pb-24  lg:flex-row lg:items-center lg:gap-20 lg:px-8 lg:pb-32 lg:pt-10">
         {/* Left: text */}
         <div className="max-w-2xl lg:flex-1">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/70 bg-white/80 px-4 py-1.5 text-xs font-medium text-slate-600 shadow-lg backdrop-blur">
@@ -140,13 +140,13 @@ const HeroSection = () => {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-gradient-to-r from-[#3d8cd8] to-[#6d4ad3] opacity-75"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-gradient-to-r from-[#3d8cd8] to-[#6d4ad3]"></span>
             </span>
-            Digital queue for modern salons
+            Real-world time optimization platform
           </div>
 
-          <h1 className="mt-6 text-4xl font-bold leading-[1.1] tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
-            Save{" "}
+          <h1 className="mt-1 text-4xl font-bold leading-[1.1] tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
+            Stop {"Waiting"}
             <span className="relative inline-block bg-gradient-to-r from-[#3d8cd8] via-[#6d4ad3] to-[#f3a6b3] bg-clip-text text-transparent">
-              time, not style.
+              Start living.
               <svg
                 className="absolute -bottom-2 left-0 w-full"
                 height="8"
@@ -178,10 +178,10 @@ const HeroSection = () => {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600 sm:text-xl">
-            Quick Cuts lets customers join salon queues remotely, track their
-            turn in real time, and walk in exactly when the chair is free—while
-            salons cut walk-outs and grow revenue with a smarter, calmer
-            workflow.
+            Quick Cuts lets you join live service queues from anywhere, track
+            your exact turn in real time, and arrive precisely when your chair
+            is ready — eliminating physical waiting completely. For businesses,
+            it transforms chaotic walk-ins into predictable revenue.
           </p>
 
           {/* Hero CTAs */}
@@ -239,12 +239,13 @@ const HeroSection = () => {
             </div>
             <div className="text-sm">
               <p className="font-semibold text-slate-900">
-                500+ salons onboarded
+                Built for salons today.
               </p>
-              <p className="text-slate-600">Join the queue revolution</p>
+              <p className="text-slate-600"> Designed for every wait tomorrow.</p>
             </div>
           </div>
         </div>
+
 
         {/* Right: app preview */}
         <div className="flex w-full max-w-md justify-center lg:flex-1 lg:justify-end">
@@ -255,7 +256,7 @@ const HeroSection = () => {
                 <div className="flex items-center gap-3">
                   <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[#3d8cd8] via-[#6d4ad3] to-[#f3a6b3] text-white text-sm font-bold shadow-[0_10px_28px_rgba(109,74,211,0.6)] transition-transform duration-300 hover:scale-110">
                     QC
-                  </div>    
+                  </div>
                   <div className="flex flex-col">
                     <span className="text-base font-bold text-slate-900">
                       Downtown Fade Studio
@@ -349,7 +350,7 @@ const HeroSection = () => {
               <div className="mt-4 flex items-center justify-between rounded-2xl border border-slate-100 bg-gradient-to-r from-slate-50 to-white px-4 py-3 text-xs text-slate-600">
                 <span className="flex items-center gap-2">
                   <span className="text-base">🤖</span>
-                  AI keeps your turn synced in real time
+                  Your turn updates automatically — always accurate.
                 </span>
                 <span className="flex items-center gap-1 rounded-full bg-gradient-to-r from-[#3d8cd8]/10 to-[#6d4ad3]/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-[#6d4ad3]">
                   <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#6d4ad3]"></span>

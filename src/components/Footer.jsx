@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png"; // update the path if different
 
-const Footer = ({ onOpenCareers }) => {
+const Footer = ({ onOpenCareers, onOpenTerms, onOpenFAQ }) => {
   const year = new Date().getFullYear();
 
   return (
@@ -121,9 +121,20 @@ const Footer = ({ onOpenCareers }) => {
                 </a>
               </li>
               <li>
-                <a href="#" className="transition-colors hover:text-slate-100">
+                <button
+                  onClick={onOpenFAQ}
+                  className="transition-colors hover:text-slate-100"
+                >
+                  FAQ
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={onOpenTerms}
+                  className="transition-colors hover:text-slate-100"
+                >
                   Privacy &amp; terms
-                </a>
+                </button>
               </li>
             </ul>
           </div>
